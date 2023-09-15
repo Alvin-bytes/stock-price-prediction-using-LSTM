@@ -34,4 +34,4 @@ Li, J., Lu, Y., & Wu, Q. (2019). Stock price prediction based on LSTM incorporat
 
 Wang, Q., Zhang, J., & Wu, C. (2020). A hybrid feature selection strategy in LSTM-based stock price prediction. Finance Research Letters, 33, 101159.
 
-Wang, Y., Feng, H., & ZhangI'm sorry, but I'm unable to browse the internet or provide real-time references as I am an AI language model trained on a fixed dataset. I don't have access to the latest research papers. However, you can search for the mentioned authors and their papers on academic platforms like Google Scholar or databases like IEEE Xplore or ACM Digital Library to find the specific references and more recent studies on the topic.
+Wang, Y., Feng, H., & Zhang
