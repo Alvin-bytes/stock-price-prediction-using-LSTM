@@ -10,7 +10,7 @@ Stock price prediction has long been an area of interest for investors, traders,
 ## LSTM: A Brief Overview
 LSTM is a type of recurrent neural network (RNN) that addresses the vanishing gradient problem typically encountered in traditional RNNs. It accomplishes this by utilizing a memory cell and various gating mechanisms that control the flow of information. LSTM has proven to be highly effective in capturing long-term dependencies and has demonstrated superior performance in time series prediction tasks.
 
-## More on LSTMs?
+## More on LSTMs
 LSTM stands for Long Short-Term Memory. It is a type of recurrent neural network (RNN) architecture that is designed to overcome the limitations of traditional RNNs in capturing and retaining long-term dependencies in sequential data.
 
 In LSTM networks, the key idea is the inclusion of memory cells that can store information over long periods of time. These memory cells are connected through a series of specialized gating mechanisms that control the flow of information within the network.
