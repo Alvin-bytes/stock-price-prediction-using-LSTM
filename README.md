@@ -1,2 +1,2 @@
-![stock price prediction](images/stockpriceprediction.png)
+![stock price prediction](images/stock price prediction.png)
 # stock-price-prediction-using-LSTM
