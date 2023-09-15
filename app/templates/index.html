@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Price Prediction Interface</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Price Prediction Interface</h1>
+
+        <form>
+            <div class="form-group">
+                <label for="stock-symbol">Stock Symbol:</label>
+                <select id="stock-symbol">
+                    <option value="AAPL">AAPL (Apple Inc.)</option>
+                    <option value="GOOGL">GOOGL (Alphabet Inc.)</option>
+                    <option value="MSFT">MSFT (Microsoft Corporation)</option>
+                    <option value="AMZN">AMZN (Amazon.com, Inc.)</option>
+                    <option value="FB">FB (Facebook, Inc.)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="prediction-horizon">Prediction Horizon:</label>
+                <input type="number" id="prediction-horizon" min="1" step="1" value="30">
+            </div>
+
+            <div class="form-group">
+                <label for="model-type">Model Type:</label>
+                <select id="model-type">
+                    <option value="linear-regression">Linear Regression</option>
+                    <option value="arima">ARIMA</option>
+                    <option value="lstm">LSTM</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="input-features">Input Features:</label>
+                <input type="text" id="input-features">
+            </div>
+
+            <button type="submit">Generate Prediction</button>
+        </form>
+
+        <div class="prediction-result">
+            <h2>Prediction Results</h2>
+            <p>View the predicted stock prices and analyze the results:</p>
+            <!-- Prediction results details go here -->
+        </div>
+    </div>
+</body>
+</html>
